@@ -1,5 +1,5 @@
 local sounds = {
-	"npc/metropolice/vo npc/metropolice/vo/11-99officerneedsassistance.wav",
+	"npc/metropolice/vo/11-99officerneedsassistance.wav",
 	"npc/metropolice/takedown.wav",
 	"npc/metropolice/vo/backup.wav",
 	"npc/metropolice/vo/backmeupImout.wav"
