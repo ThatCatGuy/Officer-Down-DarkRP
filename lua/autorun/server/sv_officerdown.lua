@@ -38,7 +38,6 @@ local function DeathSpot(ply)
 	local cps = GetOfficers()
 	if #cps <= 1 then return end
 	if !ply:isCP() then return end
-	if !ply:Alive() then return end
 
     if ply:isCP() then
  		local deathpos = ply:GetPos()
