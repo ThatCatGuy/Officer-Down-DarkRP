@@ -36,7 +36,7 @@ end
 
 local function DeathSpot(ply)
 	local cps = GetOfficers()
-	if #cps >= 1 then return end
+	if #cps <= 1 then return end
 	if !ply:isCP() then return end
 	if !ply:Alive() then return end
 
@@ -54,7 +54,7 @@ end
 
 local function PingPolice(ply)
 	local cps = GetOfficers()
-	if #cps == 1 then return end
+	if #cps <= 1 then return end
 	if !ply:isCP() then return end
 	if !ply:Alive() then return end
 
