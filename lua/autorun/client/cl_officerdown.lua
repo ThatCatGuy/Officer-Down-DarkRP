@@ -5,7 +5,7 @@ local sounds = {
 	"npc/metropolice/vo/backmeupImout.wav"
 }
 
-local cvar = CreateClientConVar("officerdown_hide", 1)
+local cvar = CreateClientConVar("officerdown_show", 1)
 local icondelay = CreateClientConVar("officerdown_removedelay", 45)
 local deaths = {}
 local pings = {}
